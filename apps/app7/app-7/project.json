@@ -51,7 +51,8 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "app7-app-7:build",
-        "hmr": true
+        "hmr": true,
+        "port": 3700
       },
       "configurations": {
         "development": {

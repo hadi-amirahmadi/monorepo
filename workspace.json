@@ -2,7 +2,24 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "app-1": "apps/app-1",
-    "app-1-e2e": "apps/app-1-e2e"
+    "api": "apps/api",
+    "api-util-interfaces": "libs/api/util-interfaces",
+    "app-1-e2e": "apps/app-1-e2e",
+    "app-2-e2e": "apps/app-2-e2e",
+    "app-3": "apps/app-3",
+    "app-3-e2e": "apps/app-3-e2e",
+    "app-4": "apps/app-4",
+    "app-4-e2e": "apps/app-4-e2e",
+    "app-5": "apps/app-5",
+    "app-5-e2e": "apps/app-5-e2e",
+    "app-6": "apps/app-6",
+    "app-6-e2e": "apps/app-6-e2e",
+    "app1-app-1": "apps/app1/app-1",
+    "app2-app-2": "apps/app2/app-2",
+    "app3-ui-shared": "libs/app3/ui-shared",
+    "app3-utils-formatter": "libs/app3/utils-formatter",
+    "app7-app-7": "apps/app7/app-7",
+    "app7-app-7-e2e": "apps/app7/app-7-e2e",
+    "feature-game-detail": "libs/feature-game-detail"
   }
 }

@@ -48,7 +48,8 @@
       "defaultConfiguration": "development",
       "options": {
         "buildTarget": "app-5:build",
-        "hmr": true
+        "hmr": true,
+        "port": 3300
       },
       "configurations": {
         "development": {

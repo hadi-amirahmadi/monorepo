@@ -7,12 +7,12 @@
       "executor": "@nrwl/cypress:cypress",
       "options": {
         "cypressConfig": "apps/app-1-e2e/cypress.config.ts",
-        "devServerTarget": "app-1:serve:development",
+        "devServerTarget": "app1-app-1:serve:development",
         "testingType": "e2e"
       },
       "configurations": {
         "production": {
-          "devServerTarget": "app-1:serve:production"
+          "devServerTarget": "app1-app-1:serve:production"
         }
       }
     },
@@ -25,5 +25,5 @@
     }
   },
   "tags": [],
-  "implicitDependencies": ["app-1"]
+  "implicitDependencies": ["app1-app-1"]
 }

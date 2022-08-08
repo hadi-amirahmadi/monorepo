@@ -1,3 +1,3 @@
-export function app3UtilsFormatter(): string {
-  return 'app3-utils-formatter';
+export function formatRating(rating: number): string {
+  return `${Math.round(rating * 100) / 10} / 10`;
 }
